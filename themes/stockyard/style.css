@@ -162,3 +162,86 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.single-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.post-title {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.post-thumbnail img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.post-content {
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.post-content p {
+  margin-bottom: 1.5em;
+}
+
+.post-footer {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.post-footer h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.related-posts {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.related-post-item {
+  flex: 1;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.related-post-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.related-thumbnail img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.related-title {
+  font-size: 1rem;
+  margin: 0;
+  color: inherit;
+}
